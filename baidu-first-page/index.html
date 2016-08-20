@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>百度首页</title>
+<style type="text/css">
+li{
+	display: inline;
+	list-style-type: none;
+	margin-left: 10px;
+	font-size: 15px;
+	font-weight: bold;
+}
+#nav{
+	float: right;
+}
+#more{
+	background-color: #1664EC;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 6px;
+}
+a{ 
+    color:#000000;
+}
+a:hover{ 
+    color:#1664EC;
+}
+.dda{
+	position: relative;
+	display: inline-block;
+}
+.ddc{
+	position: absolute;
+	top: 15px;
+	left: -20px;
+	display: none;
+	box-shadow: 2px 2px 3px #B0B0B0;
+	border-bottom-width: 1px;
+	border-bottom-color: #8A8A8A;
+}
+.ddc a{
+	display: block;
+	min-width: 60px;
+	padding: 5px;
+	color: #000000;
+	text-decoration: none;
+	font-size: 14px;
+}
+.ddc a:hover{ 
+	background-color:#1664EC; 
+	color:#FFFFFF;
+}
+.dda:hover .ddc{ 
+	display:block;
+}
+#logo{ 
+	width:270px; 
+	height:129px; 
+	margin-left:548px; 
+	margin-top:50px;
+}
+#center{ 
+	display:block; 
+	margin-left:363px;
+}
+#search{ 
+	border-color:#979797; 
+	border-width:1px; 
+	width:540px; 
+	height:35px; 
+	font-size:24px; 
+	display:inline;
+}
+#bt{ 
+	width:100px; 
+	height:40px; 
+	font-size:18px; 
+	color:#FFFFFF; 
+	background-color:#1664EC; 
+	border:none;
+}
+#footer{ 
+	position:absolute; 
+	top:450px; 
+	margin-left:282px;
+}
+.footerli{
+	display:inline; 
+	list-style-type:none; 
+	margin-left:10px; 
+	font-size:14px; 
+	color:#8A8A8A;
+}
+.footerli a:hover{ 
+	color:#8A8A8A;
+}
+</style>
+</head>
+
+<body>
+<div id="nav">
+<ul>
+<li><a href="https://www.nuomi.com">糯米</a></li>
+<li><a href="http://news.baidu.com/">新闻</a></li>
+<li><a href="https://www.hao123.com/">hao123</a></li>
+<li><a href="http://map.baidu.com/">地图</a></li>
+<li><a href="http://v.baidu.com/">视频</a></li>
+<li><a href="http://tieba.baidu.com/">贴吧</a></li>
+<li><a href="#">登录</a></li>
+<li>
+<div class="dda">
+<a href="#">设置</a>
+<div class="ddc">
+<a href="#">搜索设置</a>
+<a href="#">高级设置</a>
+<a href="#">关闭预测</a>
+<a href="#">搜索历史</a>
+</div>
+</div>
+</li>
+<li><a id="more" href="#">更多产品</a></li>
+</ul>
+</div>
+<img id="logo" src="img/bd_logo1.png">
+<div id="center">
+<input id="search" type="text">
+<button id="bt" type="submit">百度一下</button>
+</div>
+<div id="footer">
+<img style="float:left;" src="img/nuomi_510f7472.png">
+<div style="float:left; margin-left:20px; margin-right:35px; color:#8A8A8A;">
+<p style="font-size:14px; vertical-align:middle;">
+<strong>手机百度</strong><br/>快人一步</p>
+</div>
+<img style="float:left;" src="img/zbios_a4b2d86f.png">
+<div style="float:left; margin-left:20px; margin-right:35px; color:#8A8A8A;">
+<p style="font-size:14px; vertical-align:middle;">
+<strong>百度糯米</strong><br/>一元大餐</p>
+</div>
+<div style=" float:left;">
+<ul>
+<li><a class="footerli" href="#">把百度设为首页</a></li>
+<li><a class="footerli" href="#">关于百度</a></li>
+<li><a class="footerli" href="#">About Baidu</a></li>
+<li><a class="footerli" href="#">百度推广</a></li>
+</ul>
+<p style="font-size:14px; color:#8A8A8A; float:left; margin-left:58px;">
+&copy;2016 Baidu 
+<a class="footerli" href="#">使用百度前必读</a>
+<a class="footerli" href="#">意见反馈</a>京ICP证030173号
+<img src="img/搜狗截图20160820234456小.png"><br/>
+<img src="img/搜狗截图20160820234347小.png">京公网安备11000002000001号
+</p>
+</div>
+</div>
+</body>
+</html>
