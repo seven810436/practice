@@ -1,6 +1,6 @@
 # practice
 <p style="text-indent:2em;">嗯~学习前端开发已经小半年了，感觉自己就是菜鸡。</p>
-<p style="text-indent:2em;">要不是那点被所有人都瞧不起的兴趣，那会坚持这么久，全都是网易的错，干嘛把网站做那么漂亮，动效那么带劲，国内都找不出几家能和网易比的公司，他们要么前端做的好，后端一塌糊涂。要么后端还行，前端特别丑。前端还是很有意思的，我的梦想是成为全栈工程师，我真的不喜欢我现在的专业，谢谢大家！<br/>
+<p style="text-indent:2em;">要不是那点被所有人都瞧不起的兴趣，哪会坚持这么久，前端还是很有意思的，我的梦想是成为全栈工程师，我真的不喜欢我现在的专业，谢谢大家！<br/>
 <h3>《如果有哪家公司招收像我这种热爱这一行的人，请联系我！！！》</h3><br/>
 <h3>我的邮箱是：sevenlondon@yeah.net</h3> <br/>
 <h3>我的微博是：@让我冷静一个月。</h3>
@@ -15,4 +15,11 @@
 <p>这是别人的</p>
 <img style="width:400px; height:225px;float:left;" src="https://raw.githubusercontent.com/seven810436/practice/master/sign-in-page/16sucai_201606181008.jpg"><hr/>
 <p>有些困了，还是睡吧！明天再战！</p>
+<h2>二、一个半静态百度首页。</h2>
+<p>这个做的还是很粗鄙的，学艺不精，我会继续努力争取做出一个一模一样的网页。下一个目标是模仿战网做一个静态网页。</p>
+<p>这是我的</p>
+<img style="width:400px; height:225px;float:left;" src="https://raw.githubusercontent.com/seven810436/practice/master/baidu-first-page/%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20160821000450%E4%BB%BF.png"><br/><hr/>
+<p>这是百度的</p>
+<img style="width:400px; height:225px;float:left;" src="https://raw.githubusercontent.com/seven810436/practice/master/baidu-first-page/%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20160820194347.png"><hr/>
+
 
