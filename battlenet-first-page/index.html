@@ -1,0 +1,387 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>战网首页</title>
+<style type="text/css">
+body{
+	background-image: url(img/bg-top.jpg);
+	background-size:100%;
+}
+#head{
+	width: 100%;
+	height: 50px;
+	background-color: #939393;
+	opacity: 0.1;
+	position: absolute;
+	top: -0.5px;
+	right: 1.5px;
+	border:2px solid #FFFFFF;
+}
+#navlist{
+	position:relative;
+}
+#navlist li{ 
+    margin-left:100px;
+	padding:0;
+	list-style:none;
+	position:absolute;
+	top:-14px;
+}
+#navlist li, #navlist a{
+	height:50px;
+	display:block;
+}
+#home{
+	left:0px;
+	width:50px;
+}
+#home{
+	background:url('img/logo-bnet-compact.png') 0 0;
+}
+#home a:hover{
+	background: url('img/logo-bnet-compact.png') 0 -50px;
+}
+#btnn{
+	position:relative;
+}
+#btnn li{ 
+    margin-left:100px;
+	padding:0;
+	list-style:none;
+	position:absolute;
+	top:-14px;
+}
+#btnn li, #btnn a{
+	height:172px;
+	display:block;
+}
+#btn{
+	left:0px;
+	width:256px;
+}
+#btn{
+	background: url('img/app-screen-small.png') 0 0;
+}
+#btn a:hover{
+	background: url('img/app-screen-small.png') -256px 0;
+}
+#left{
+	display: inline-block;
+	margin-left: 120px;
+	position:absolute;
+	top:-1px;
+}
+#left a{ 
+	color: #8E8E8E; 
+	font:"微软雅黑"; 
+	font-size:16px; 
+	text-decoration:none;
+}
+#left a:hover{ 
+	color:#FFFFFF;
+}
+#right{
+	display: inline-block;
+	margin-left:1000px;
+	position:absolute;
+	top:-1px;
+}
+#right a{ 
+	color: #8E8E8E; 
+	font:"微软雅黑"; 
+	font-size:16px; 
+	text-decoration:none;
+}
+#right a:hover{ 
+	color:#FFFFFF;
+}
+
+li{ 
+	list-style-type:none; 
+	display:inline; 
+	margin-left:18px;
+}
+#img{ 
+	width:990px; 
+	height:150px; 
+	margin:auto; 
+	position:relative; 
+	top:36px;
+}
+#center{
+	width: 990px;
+	height: 230px;
+	border-top: 1px solid #6E90B9;
+	border-left: 1px solid #6E90B9;
+	border-right: 1px solid #6E90B9;
+	border-radius: 5px 5px 0 0;
+	margin: auto;
+	position: relative;
+	padding: 0;
+	top: 35px;
+}
+#word{ 
+	color: #67707B; 
+	font:"微软雅黑"; 
+	font-size:26px; 
+	text-decoration:none;
+}
+#word:hover{ 
+	color:#FDFDFD;
+}
+#word1{
+	color: #67707B; 
+	font:"微软雅黑"; 
+	font-size:14px; 
+	padding:2px; 
+	text-decoration:none; 
+	border:1px solid #67707B; 
+	border-radius:3px; 
+}
+#word1:hover{ 
+	color:#FFFFFF; 
+	border-color:#FFFFFF; 
+}
+#button{ 
+	border:none; 
+	width:115px; 
+	height:35px; 
+	box-sizing:border-box; 
+	border-radius:3px; 
+	color:#FFFFFF; 
+	background-color:#0072D0; 
+	margin:30px;
+}
+#button:hover{ 
+	background-color: #00A9D4;
+}
+.btna{ 
+	color:#0072D0; 
+	text-decoration:none;
+	font-size:14px;
+}
+.btna:hover{ 
+	color:#FFFFFF;
+}
+#bg{ 
+	width:102%; 
+	height:450px; 
+	background-color:#D1D0CC; 
+	position:relative; 
+	top:51px; 
+	left:-8px; 
+	border-bottom:5px solid #FFF;
+}
+#gamebar{
+	position:relative;
+}
+#gamebar li{ 
+    margin-left:0;
+	padding:0;
+	list-style:none;
+	position:absolute;
+	top:-14px;
+}
+#gamebar li, #gamebar a{
+	height:390px;
+	display:block;
+}
+#game1{
+	left:0px;
+	width:162px;
+}
+#game1{
+	background: url(img/wow-cn.png) 0 0;
+}
+#game1 a:hover{
+	background: url(img/wow-cn.png) -248px 0;
+}
+#game2{
+	left:162px;
+	width:162px;
+}
+#game2{
+	background: url(img/diablo3-cn.png) 0 0;
+}
+#game2 a:hover{
+	background: url(img/diablo3-cn.png) -248px 0;
+}
+#game3{
+	left:324px;
+	width:162px;
+}
+#game3{
+	background: url(img/starcraft2-cn.png) 0 0;
+}
+#game3 a:hover{
+	background:url(img/starcraft2-cn.png) -248px 0;
+}
+#game4{
+	left:486px;
+	width:162px;
+}
+#game4{
+	background: url(img/heroes-cn.png) 0 0;
+}
+#game4 a:hover{
+	background:url(img/heroes-cn.png) -248px 0;
+}
+#game5{
+	left:648px;
+	width:162px;
+}
+#game5{
+	background: url(img/hearthstone-cn.png) 0 0;
+}
+#game5 a:hover{
+	background:url(img/hearthstone-cn.png) -248px 0;
+}
+#game6{
+	left:810px;
+	width:162px;
+}
+#game6{
+	background: url(img/overwatch-cn.png) 0 0;
+}
+#game6 a:hover{
+	background:url(img/overwatch-cn.png) -248px 0;
+}
+#game{ 
+	width:972px; 
+	height:400px; 
+	margin:auto; 
+	position:relative; 
+	top:-600px; 
+	overflow:hidden;
+}
+.p{
+	color:#BABABA;
+	text-decoration:none;
+	text-align:center;
+	padding-top:15px;
+	font-size:14px;
+}
+#footer{ 
+    position:relative;
+}
+#footer li{ 
+	list-style-type:none; 
+	position:absolute; 
+	height:24px; 
+	display:inline; 
+	color: #D6D6D6;
+}
+#footer1{ 
+	width:24px; 
+	background:url(img/sprite-24-blue.png) -96px 0;
+}
+#footer2{ 
+	width:24px; 
+	left:140px; 
+	background:url(img/sprite-24-blue.png) -144px -24px;
+}
+#footer3{ 
+	width:24px; 
+	left:750px; 
+	background:url(img/sprite-24-blue.png) -216px -72px;
+}
+.footera{ 
+	text-decoration:none; 
+	color:#B6B6B6; 
+	margin-left:50px;
+}
+.footera:hover{ 
+	color:#FFFFFF;
+}
+.footeraa{ 
+	text-decoration:none; 
+	color:#B6B6B6; 
+	font-size:14px; 
+	line-height:25px;
+}
+.footeraa:hover{ 
+	color:#FFFFFF;
+}
+</style>
+</head>
+
+<body>
+<div id="head"></div>
+  <ul id="navlist">
+    <li id="home"><a href="http://www.battlenet.com.cn/zh/"></a></li>
+  </ul>
+  <div id="left">
+   <ul>
+     <li><a href="#">游戏 <strong>&or;</strong></a></li>
+     <li><a href="#">商城</a></li>
+   </ul>
+   </div>
+     <div id="right">
+       <ul>
+         <li><a href="#">支持</a></li>
+         <li><a href="#">您的通行证 <strong>&or;</strong></a></li>
+       </ul>
+     </div>
+     <div id="img">
+       <img style=" position:absolute; top:58px;" src="img/bnet-default-cn.png">
+       <img style="position:absolute; top:80px; left:680px;" src="img/search-bar.gif">
+       <input style="width:250px; height:20px; position:absolute; top:85px; left:698px; border:none; background:liner-gradient(to bottom #D1D0CC #FFFFFF); color: #A4A4A4;" type="search" value="搜索战网">
+     </div>
+<div id="center">
+   <p style=" margin-left:20px;">
+     <a id="word" href="#">同<strong>数以百万计</strong>的玩家一起参加线上活动，共同感受最<br>为精彩的游戏体验！</a>
+     <a id="word1" href="#">了解更多内容</a>
+   </p>
+   <div style="position:absolute; top:0px; left:600px;">
+     <ul id="btnn">
+       <li id="btn"><a href="#"></a></li>
+     </ul>
+   </div>
+    <button id="button" type="button">注册战网通行证</button>
+    <a class="btna" href="#">登录</a>
+    <a style="position:relative; top:20px; left:570px;" class="btna" href="#">获取战网客户端</a>
+</div>
+<div style="width:101.1%; height:605px; overflow:hidden; position:relative; left:-7px;">
+    <img style="position: relative; top:58.5px; left:-233px; overflow:hidden;" src="img/bg-sides.png"><br>
+    <img style="position:relative; top:55px; left:-232px;" src="img/bg-middle.jpg">
+    <div id="bg"></div>
+</div>
+<div id="game">
+    <ul id="gamebar">
+        <li id="game1"><a class="p" href="#">访问《魔兽世界&reg;》</a></li>
+        <li id="game2"><a class="p" href="#">访问《暗黑破坏神&reg;III》</a></li>
+        <li id="game3"><a class="p" href="#">访问《星际争霸&reg;II》</a></li>
+        <li id="game4"><a class="p" href="#">访问《风暴英雄&trade;》</a></li>
+        <li id="game5"><a class="p" href="#">访问《炉石传说&reg;》</a></li>
+        <li id="game6"><a class="p" href="#">访问《守望先锋&trade;》</a></li>
+    </ul>
+</div>
+<div style=" width:990px; height:300px; margin-left:171px; position:absolute; top:1010px;">
+    <ul id="footer">
+        <li id="footer1"></li><a class="footera" href="#">支持</a>
+        <li id="footer2"></li><a style="margin-left:65px;" class="footera" href="#">反馈</a>
+        <li id="footer3"></li><a style="margin-left:570px;" class="footera" href="#">中国-简体中文 &or;</a>
+    </ul>
+    <div style=" width:120px; height:60px; display:inline; float:left; margin-left:60px; margin-top:30px;">
+        <img src="img/blizzard.png">
+    </div>
+    <div style="width:640px; height:180px;  float:left; margin-left:25px; margin-top:25px;">
+        <a class="footeraa" href="#">查找职位 &nbsp;&#124;</a>
+        <a class="footeraa" href="#"> &nbsp;关于&nbsp; &#124;</a>
+        <a class="footeraa" href="#"> &nbsp;隐私&nbsp; &#124;</a>
+        <a class="footeraa" href="#"> &nbsp;法律条款&nbsp; &#124;</a>
+        <a class="footeraa" href="#"> &nbsp;API</a><br>
+        <a class="footeraa" href="#">沪网文[2014]0731-161号&nbsp; &#124;</a>
+        <a class="footeraa" href="#"> &nbsp;增值电信业务经营许可证编号：沪B2-20080012</a><br>
+        <a class="footeraa" href="#">互联网违法和不良信息举报电话：0571-28090163&nbsp; &#124;</a>
+        <a class="footeraa" href="#"> &nbsp;沪公网安备：31011502002167</a>
+        <p style=" color:#959595; font-size:12px;">&copy;2016 Blizzard Entertainment, Inc.</p>
+        <img src="img/footer-icon-cyberpolice.gif">&nbsp;&nbsp;&nbsp;
+        <img src="img/footer-icon-zx100.gif">&nbsp;&nbsp;&nbsp;
+        <img src="img/footer-icon-sgs.gif">&nbsp;&nbsp;&nbsp;
+        <img src="img/footer-icon-shjbzx.gif">
+    </div>
+</div>
+</body>
+</html>
