@@ -21,5 +21,10 @@
 <img style="width:400px; height:225px;float:left;" src="https://raw.githubusercontent.com/seven810436/practice/master/baidu-first-page/%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20160821000450%E4%BB%BF.png"><br/><hr/>
 <p>这是百度的</p>
 <img style="width:400px; height:225px;float:left;" src="https://raw.githubusercontent.com/seven810436/practice/master/baidu-first-page/%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20160820194347.png"><hr/>
-
+<h2>三、战网首页。</h2>
+<p>模仿的这个战网首页基本把所有的链接效果做出来了，里面运用最多的是图片拼合，还有对布局是一个很重要的练习。</p>
+<p>这是我的</p>
+<imgstyle="width:400px; height:225px;float:left;" src="https://raw.githubusercontent.com/seven810436/practice/master/battlenet-first-page/%E6%88%98%E7%BD%91%E9%A6%96%E9%A1%B5.png"><br/><hr>
+<p>这是战网的</p>
+<imgstyle="width:400px; height:225px;float:left;" src="https://raw.githubusercontent.com/seven810436/practice/master/battlenet-first-page/%E6%88%98%E7%BD%91.png"><hr>
 
