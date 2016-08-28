@@ -14,7 +14,7 @@
 <img style="width:400px; height:225px;float:left;" src="https://raw.githubusercontent.com/seven810436/practice/master/sign-in-page/%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20160821004205.png"><br/><hr/>
 <p>这是别人的</p>
 <img style="width:400px; height:225px;float:left;" src="https://raw.githubusercontent.com/seven810436/practice/master/sign-in-page/16sucai_201606181008.jpg"><hr/>
-<p>有些困了，还是睡吧！明天再战！</p>
+<p>对登录界面进行了完善，加入了自动获得焦点和表单提示信息。</p>
 <h2>二、一个半静态百度首页。</h2>
 <p>这个做的还是很粗鄙的，学艺不精，我会继续努力争取做出一个一模一样的网页。下一个目标是模仿战网做一个静态网页。</p>
 <p>这是我的</p>
