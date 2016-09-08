@@ -27,4 +27,6 @@
 <img style="width:400px; height:225px;float:left;" src="https://raw.githubusercontent.com/seven810436/practice/master/battlenet-first-page/battlenet1.jpg"><br/><hr>
 <p>这是战网的</p>
 <img style="width:400px; height:225px;float:left;" src="https://raw.githubusercontent.com/seven810436/practice/master/battlenet-first-page/battlenet.jpg"><hr>
-
+<h2>四、渐变练习</h2>
+<p>渐变来说应该是现阶段CSS3里兼容性最差的了。</p>
+<img style="width:400px; height:225px;float:left;" src="https://raw.githubusercontent.com/seven810436/practice/master/gradient/new_file.html.png"><hr>
