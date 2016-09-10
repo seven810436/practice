@@ -37,7 +37,7 @@
 			 transition-duration（要过渡的时间）;
 			 transition-timing-function（过渡时间曲线）；
 			 transition-delay（规定过渡何时开始）；</pre>
-			 <pre>nimation常用的六个值：
+			 <pre>2、nimation常用的六个值：
 			 animation-name；（动画名称）
 			 animation-duration；（动画需要多长时间完成）
 			 animation-timing-function；（动画的时间曲线）
