@@ -30,3 +30,20 @@
 <h2>四、渐变练习</h2>
 <p>渐变来说应该是现阶段CSS3里兼容性最差的了。</p>
 <img style="width:400px; height:225px;float:left;" src="https://raw.githubusercontent.com/seven810436/practice/master/gradient/new_file.html.png"><hr>
+<h2>五、过渡和简单动画</h2>
+<p>过渡和动画相对来说比较简单，但是需要完全掌握是比较麻烦的，属性比较多，像我这种菜鸟往往难以驾驭，需要注意的是：
+       <pre>1、transition有四个属性值，分别是：
+			 transition-property（要过渡的属性名称）；
+			 transition-duration（要过渡的时间）;
+			 transition-timing-function（过渡时间曲线）；
+			 transition-delay（规定过渡何时开始）；</pre>
+			 <pre>nimation常用的六个值：
+			 animation-name；（动画名称）
+			 animation-duration；（动画需要多长时间完成）
+			 animation-timing-function；（动画的时间曲线）
+			 animation-delay；（规定动画何时开始）
+			 animation-iteration-count；（规定动画循环次数，默认值：1，其他有n或者infinite）
+			 animation-direction；（规定是否下一周期逆向播放，默认值为normal，reverse：反向播放，alternate：奇正偶反，alternate-reverse：偶正奇反）；
+			 在@keyframes中创建动画，在绑定的选择器中至少需要两个属性：名称和时长。</pre>
+			 </p>
+<img src="https://raw.githubusercontent.com/seven810436/practice/master/transition-and-animation/GIF3.gif">
