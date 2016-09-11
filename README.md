@@ -48,7 +48,7 @@
 			 </p>
 <img src="https://raw.githubusercontent.com/seven810436/practice/master/transition-and-animation/GIF3.gif"><hr>
 <h2>六、稍复杂的动画</h2>
-<p>这个是animation的高级运用，其中在@keyframes中用到了以百分数代替from和to，为了得到良好的兼容性往往以0%开始，以100%结束，还可以设置其位置，这样可以更好的控制动画的运行。如<code>@keyframes myfirst{
+<p>这个是animation的高级运用，其中在@keyframes中用到了以百分数代替from和to，为了得到良好的兼容性往往以0%开始，以100%结束，还可以设置其位置，这样可以更好的控制动画的运行。如<pre>@keyframes myfirst{
 				0% {
 					background: crimson;
 					left: 0px;
@@ -74,5 +74,5 @@
 					left: 0px;
 					top: 0px;
 				}
-			}</code>在给div设置样式时需要注意position属性，如果不设置会造成动画位置不变。在animation和keyframes前加上-mos-、-ms-、-weblit-是代码具有良好的兼容性。</p>
+			}</pre>在给div设置样式时需要注意position属性，如果不设置会造成动画位置不变。在animation和keyframes前加上-mos-、-ms-、-weblit-是代码具有良好的兼容性。</p>
 <img src="https://raw.githubusercontent.com/seven810436/practice/master/animation/GIF4.gif"><hr>
