@@ -76,3 +76,6 @@
 				}
 			}</pre>在给div设置样式时需要注意position属性，如果不设置会造成动画位置不变。在animation和keyframes前加上-mos-、-ms-、-weblit-是代码具有良好的兼容性。</p>
 <img src="https://raw.githubusercontent.com/seven810436/practice/master/animation/GIF4.gif"><hr>
+<h2>七、多列</h2>
+<p>哦~我的天哪！这多列兼容也是相当感人。</p>
+<img src="https://raw.githubusercontent.com/seven810436/practice/master/column/%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20160911173845.png"><hr>
