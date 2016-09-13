@@ -79,3 +79,6 @@
 <h2>七、多列</h2>
 <p>哦~我的天哪！这多列兼容也是相当感人。</p>
 <img src="https://raw.githubusercontent.com/seven810436/practice/master/column/%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20160911173845.png"><hr>
+<h2>八、CSS3图片样式运用——简直awesome</h2>
+<p>CSS3图片样式简直帅，没得说。一定要掌握的。</p>
+<img src="https://github.com/seven810436/practice/blob/master/CSS3-IMG/GIF5.gif"><br><img src="https://github.com/seven810436/practice/blob/master/CSS3-IMG/%E5%9B%BE%E7%89%87.jpg"><hr>
