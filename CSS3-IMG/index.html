@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>图片</title>
+		<style>
+			#circle {
+				width: 500px;
+				height: 500px;
+				border: 3px solid antiquewhite;
+				border-radius: 50%;
+				box-shadow: 0px 0px 20px darkgray;
+				display: block;
+			}
+			
+			.slt {
+				width: 100px;
+				height: 100px;
+				border-radius: 10px;
+			}
+			
+			a {
+				display: inline-block;
+				transition: 0.1s;
+				border: 2px solid white;
+				border-radius: 10px;
+				float: right;
+			}
+			
+			a:hover {
+				box-shadow: 0px 0px 20px #A9A9A9;
+			}
+			
+			.picture {
+				border-radius: 8px;
+				margin-bottom: 30px;
+				display: inline-block;
+			}
+			
+			.continer {
+				text-align: center;
+				padding: 10px 20px;
+				box-shadow: 0px 0px 20px #A9A9A9;
+				max-width: 300px;
+				margin-top: 20px;
+				margin-bottom: 30px;
+				margin-left: 100px;
+			}
+			
+			.xt {
+				width: 300px;
+				height: 300px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<img id="circle" src="img/org_20160307144643_47.jpg">
+		<a href="#"><img class="slt" src="img/org_20151224174221_165.jpg"></a>
+		<a href="#"><img class="slt" src="img/org_20151229145738_208.jpg"></a>
+		<a href="#"><img class="slt" src="img/org_20151231120112_99.jpg"></a>
+		<a href="#"><img class="slt" src="img/org_20160111123916_212.jpg"></a>
+		<a href="#"><img class="slt" src="img/org_20160307144643_47.jpg"></a>
+		<div class="continer" style="transform: rotate(30deg) translate(100px,-20px);"><img class="xt" src="img/org_20151224174221_165.jpg">
+			<div class="picture">
+				<p>海洋</p>
+			</div>
+		</div>
+		<div class="continer" style="transform: rotate(-30deg) translate(-50px,50px);"><img class="xt" src="img/org_20151229145738_208.jpg">
+			<div class="picture">
+				<p>海滩</p>
+			</div>
+		</div>
+		<div class="continer" style="transform: rotate(20deg) translate(300px,-300px);"><img class="xt" src="img/org_20151231120112_99.jpg">
+			<div class="picture">
+				<p>枫叶</p>
+			</div>
+		</div>
+		<div class="continer" style="transform: rotate(-10deg) translate(700px,-1000px);"><img class="xt" src="img/org_20160111123916_212.jpg">
+			<div class="picture">
+				<p>城镇</p>
+			</div>
+		</div>
+		<div class="continer" style="transform: rotate(5deg) translate(700px,-1200px);"><img class="xt" src="img/org_20160307144643_47.jpg">
+			<div class="picture">
+				<p>程序员</p>
+			</div>
+		</div>
+	</body>
+
+</html>
